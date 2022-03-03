@@ -1,0 +1,259 @@
+@font-face {
+    font-family: "GardensC";
+
+    src: url("/assets/media/fonts/GardensC.otf");
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, li{
+    list-style: none;
+}
+body, html{
+    font-family: "GardensC", sans-serif;
+}
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+.title-block{
+    font-size: 42px;
+    font-weight: 300;
+}
+
+.header{
+    background: #222222;
+}
+.header-items{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.header-logo{
+    width: 100px;
+}
+.header-tel{
+    display: flex;
+    align-items: center;
+}
+.header-btn{
+    margin-left: 30px;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background: #0067e5;
+    transition: 0.2s;
+}
+.header-btn:hover{
+    background: #004eba;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/media/img/kartinki-giroskutera-11.jpg');
+    height: 93vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.hero-title{
+    font-size: 72px;
+    margin-bottom: 20px;
+}
+.hero-subtitle{
+    font-size: 34px;
+    line-height: 50px;
+}
+
+.slider{
+    padding: 100px 0;
+}
+.slider-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slider-button{
+    cursor: pointer;
+}
+.slider-button:first-child{
+    margin-right: 30px;
+}
+.slider-menu{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.slider-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slider-block p{
+    margin-top: 10px;
+}
+
+
+.peculiarity{
+    padding-bottom: 100px;
+}
+.peculiarity-title{
+
+}
+.peculiarity-content{
+    display: flex;
+    margin: 40px 0;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+
+}
+.peculiarity-content img{
+    width: 50%;
+}
+.peculiarity-text{
+    padding: 30px;
+    margin-left: 20px;
+    line-height: 30px;
+}
+.peculiarity-list{
+    margin-left: 10px;
+}
+.peculiarity-bottom{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+.catalog{
+    padding-bottom: 100px;
+}
+.catalog-content{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.catalog-card{
+    width: 270px;
+    border: 1px solid #f0f5fa;
+}
+.catalog-card img{
+    width: 100%;
+}
+.catalog-text{
+    padding: 20px;
+}
+.catalog-name{
+    color: #a0a0a9;
+}
+.catalog-price{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.catalog-btn{
+    width: 200px;
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    padding: 10px 15px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background: #0067e5;
+    transition: 0.2s;
+}
+.catalog-btn:hover{
+    background: #004eba;
+}
+
+
+.personal{
+    padding: 100px;
+    background: #f9fbff;
+}
+.personal-content{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.personal-card{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.personal-card img{
+    width: 50%;
+}
+.personal-text{
+    text-align: center;
+    margin-top: 20px;
+}
+.personal-text h1{
+    color: #607081;
+    margin-bottom: 10px;
+}
+.personal-text p{
+    color: #4b4d54;
+    font-size: 18px;
+}
+
+
+.brand{
+    padding: 100px 0;
+}
+.brand-content{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/media/img/about-us-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+    margin: 100px 0;
+
+}
+.brand-text{
+    font-size: 24px;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.anchor{
+    border: 1px solid #e3e7ec;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+    padding: 7px 10px 10px 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    background: white;
+    position: fixed;
+    right: 10vh;
+    bottom: 10vh;
+}
