@@ -1,7 +1,7 @@
 @font-face {
     font-family: "GardensC";
 
-    src: url("assets/media/fonts/GardensC.otf");
+    src: url("../../assets/media/fonts/GardensC.otf");
 }
 
 html {
@@ -62,7 +62,7 @@ body, html{
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/media/img/kartinki-giroskutera-11.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../assets/media/img/kartinki-giroskutera-11.jpg');
     height: 93vh;
     width: 100%;
     background-position: center;
@@ -225,7 +225,7 @@ body, html{
     padding: 100px 0;
 }
 .brand-content{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('assets/media/img/about-us-bg.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../assets/media/img/about-us-bg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
